@@ -4402,8 +4402,8 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #6D8D45;
-  border: 1px solid #8A7058;
+  background-color: transparent;
+  border: 1px solid transparent;
   border-radius: 0.25rem;
 }
 
@@ -4678,7 +4678,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+ color: #6D8D45;
+	color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-dark .navbar-brand {
@@ -10268,7 +10269,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .fa-child {
 	font-size: 50px;
-	color: orange;
+	color: #6D8D45;
 	padding-right: 20px;
 }
 
@@ -10289,7 +10290,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .fa-sun {
 	font-size: 50px;
-	color: orange;
+	color: #6D8D45;
 	padding-right: 20px;
 }
 
